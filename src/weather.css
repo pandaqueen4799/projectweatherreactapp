@@ -28,10 +28,9 @@ body {
   line-height: 19px;
   list-style: none;
 }
-.weather img {
+.weather canvas {
   float: left;
-  margin-right: 10px;
-  width: 64px;
+  margin-top: 5px;
 }
 .weather .temp {
   font-weight: bold;
