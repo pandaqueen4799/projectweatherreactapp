@@ -18,7 +18,7 @@ export default function WInfo(props) {
             <div className="clearfix">
                 <WeatherIcon
                  code={props.data.icon} />
-                 <WeatherTemp celsius={props.data.temperature} />
+                 <WeatherTemp celsius={props.data.temp} />
             </div>
           </div> 
           <div className="col-6">
