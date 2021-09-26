@@ -30,9 +30,7 @@ if (unit === "celsius") {
         <span className="temp">{Math.round(fahrenheit)}</span>
         <span className="unit">
           <a href="/" onClick={convertToC}>
-            °C{" "}
-          </a>{" "}
-          / °F
+            °C </a> / °F
         </span>
       </div>
     );
