@@ -23,7 +23,6 @@ export default function WInfo(props) {
           </div> 
           <div className="col-6">
             <ul>
-              <li>Precipitation: 15%</li>
               <li>Humidity: {props.data.humidity}%</li>
               <li>Wind: {Math.round(props.data.wind)} mph</li>
             </ul>
