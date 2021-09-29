@@ -6,14 +6,3 @@
   opacity: 0.6;
   margin-left: 5px;
 }
-
-.forecast canvas {
-      left: 46%;
-      position: relative;
-      margin-top: 14px;
-      top: -4%;
-}
-
-.forecast-temp {
-    margin-top: -5px;
-}

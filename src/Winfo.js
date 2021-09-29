@@ -16,10 +16,14 @@ export default function WInfo(props) {
         <div className="row mt-3">
           <div className="col-6">
             <div className="clearfix">
+              <div className="float-left">
                 <WeatherIcon
                  code={props.data.icon}
                  size={60} />
+                 </div>
+                 <div className="float-left">
                  <WeatherTemp celsius={props.data.temp} />
+                 </div>
             </div>
           </div> 
           <div className="col-6">
