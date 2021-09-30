@@ -3,3 +3,7 @@ lat=70&lon=40&appid=91dfb81ac7d5ccde305914fa015a1604
 
  (Monday, Tuesday, Wednesday, Thursday, 
  Friday, Saturday, Sunday)
+
+ body {
+    -webkit-text-size-adjust: 100%;
+}
